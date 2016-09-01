@@ -1,16 +1,46 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
-    <title>Артем Склянчук</title>
-  </head>
-  <body>
-    <div class="page main_page">
-      <img class="main_photo" src="images/main.jpg" alt="Ну, это я!">
-      <p class="about_me">Меня зовут Артем!<br> Я люблю програм&shy;мировать, фото, музыку и хороший юмор.</p>
-    </div>
-  </body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Artem Sklyanchuk</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Artem Sklyanchuk</h1>
+						<p>Web developer &nbsp;&bull;&nbsp; Freelance &nbsp;&bull;&nbsp; Wizard 90 lvl</p>
+						<nav>
+							<ul>
+								<li><a href="https://twitter.com/sklyanchuk" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/artem.sklyanchuk" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/sklyanchuk" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:artem.sklyanchuk@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Sklyanchuk. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
